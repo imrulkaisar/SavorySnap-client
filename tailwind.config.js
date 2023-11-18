@@ -7,7 +7,18 @@ export default {
     "node_modules/keep-react/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#D99904",
+        primaryShadow: "#EEFF25",
+        secondary: "#151515",
+        body: "#737373",
+      },
+      fontFamily: {
+        primary: "'Cinzel', serif",
+        secondary: "'Inter', sans-serif",
+      },
+    },
   },
   plugins: [],
   presets: [keepPreset],
